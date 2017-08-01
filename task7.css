@@ -25,7 +25,6 @@ header
   color:black;
   float:left;
   padding:3px 0 0 8px;
-  
 }
 header ul
 {
@@ -212,7 +211,7 @@ li span
 {
   width:205px;
   border:7px solid white;
-  box-shadow:0 0 1px 0 gray;
+  box-shadow:0 0 5px gray;
 }
 #activities figcaption
 {
@@ -242,13 +241,13 @@ figcaption span
 }
 #tan
 {
-  border:22px solid;
-  border-color:transparent white transparent transparent;
-  height:0px;
+  border:22px solid;/*先制作一个边长为22px的正方形，白色*/
+  border-color:transparent white transparent transparent;/*对角切成四个区域，颜色位置上右下左*/
+  height:0px;/*设置div的宽高*/
   width:0px;
   float:right;
   position:relative;
-  top:-170px;;
+  top:-170px;
 }
 #myCarousel
 {
